@@ -10,3 +10,4 @@
 4. bower install
 5. node server.js
 6. live-server
+![homepage](Honeycam 2016-05-24 20-02-13.gif)
