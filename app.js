@@ -8,7 +8,7 @@
             nick : prompt('닉네임을 입력하세요') || '손님',
             image : 'http://www.sherv.net/cm/emo/laughing/avatar-laughter-smiley-emoticon.gif'
         },
-        socket = io('http://192.168.0.31:4000'),
+        socket = io('http://localhost:4000'),
         joined = false;
 
     socket.on('connect', function(){
